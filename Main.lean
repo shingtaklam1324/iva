@@ -48,6 +48,6 @@ def List.perLine [ToString α] (l : List α) : String :=
 
 def main : IO Unit :=
   let res := buchberger I o
-  println!"A Gröbner basis for:\n\n {I.perLine} \n\nwith the grLex order is:\n\n{res.perLine}"
+  println!"A Gröbner basis for:\n\n{I.perLine} \n\nwith the grLex order is:\n\n{res.perLine}"
 
 #eval main
